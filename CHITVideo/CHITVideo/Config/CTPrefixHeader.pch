@@ -1,0 +1,47 @@
+//
+//  PrefixHeader.pch
+//  CHitVideo
+//
+//  Created by Xianxiangdaishu on 2018/1/10.
+//  Copyright © 2018年 changhongit. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "CTHeader.h"
+#import "CTWSOptHeader.h"
+#import "CTHelper.h"
+#import "CTConfStatus.h"
+#import "CTConfManager.h"
+#import "CTExtern.h"
+
+#import "ChitNotification.h"
+#import "CHITVideoService.h"
+#import "ChitVideoNotification.h"
+#import "CHITHTTPReq.h"
+
+#import "GNDefault.h"
+#import "GNAdaptive.h"
+#import "GNProxyConfig.h"
+#import "GNBlockConfig.h"
+#import "GNDate.h"
+#import "GNExtern.h"
+#import "GNDeviceInfo.h"
+#import "GNRegex.h"
+#import "GNWSManager.h"
+#import "GNHTTPManager.h"
+
+//#import <SVProgressHUD/SVProgressHUD.h>
+#import <MJExtension/MJExtension.h>
+
+#import "UIImage+Category.h"
+#import "UIAlertController+Category.h"
+#import <AppKit/AppKit.h>
+
+#import <Lmi/VidyoClient/VidyoConnector_Objc.h>
+#import "CHITLogger.h"
+#endif /* PrefixHeader_pch */

@@ -1,0 +1,24 @@
+//
+//  CHITPrefixHeader.pch
+//  VidyoConnector
+//
+//  Created by Xianxiangdaishu on 2019/6/17.
+//  Copyright © 2019 Vidyo. All rights reserved.
+//
+
+#ifndef CHITPrefixHeader_pch
+#define CHITPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <CHITVideo/CHITVideo.h>
+#import "VidyoUserDefaults.h"
+
+#import "CHITHeader.h"
+#import "CommonUtils.h"
+#import "NSDate+GNDate.h"
+
+#import "CTUserManager.h"
+#import "CHITNotificationConfig.h"
+#endif /* CHITPrefixHeader_pch */

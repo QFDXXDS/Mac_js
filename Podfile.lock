@@ -1,0 +1,53 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - CocoaLumberjack (3.4.2):
+    - CocoaLumberjack/Default (= 3.4.2)
+    - CocoaLumberjack/Extensions (= 3.4.2)
+  - CocoaLumberjack/Default (3.4.2)
+  - CocoaLumberjack/Extensions (3.4.2):
+    - CocoaLumberjack/Default
+  - JSONModel (1.8.0)
+  - MJExtension (3.0.15.1)
+  - SocketRocket (0.5.1)
+  - SSZipArchive (2.1.4)
+
+DEPENDENCIES:
+  - AFNetworking
+  - CocoaLumberjack
+  - JSONModel
+  - MJExtension
+  - SocketRocket
+  - SSZipArchive
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - CocoaLumberjack
+    - JSONModel
+    - MJExtension
+    - SocketRocket
+    - SSZipArchive
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  SSZipArchive: 41455d4b8d2b6ab93990820b50dc697c2554a322
+
+PODFILE CHECKSUM: 5c2391a4f0c848e7be66005c9976dd9a3cc4e628
+
+COCOAPODS: 1.5.3
